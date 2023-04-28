@@ -1,0 +1,251 @@
+.carousel {
+     width: 50%;
+ 
+    }
+
+    .carouselExampleCaptions{
+        display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+
+    /* 
+Waldin Obando Muñoz - B95646
+Walter Vargas Meza - B98247 
+Jeremy Ovares Roig - B85826
+*/
+
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* header */
+
+.header{
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+    float: left;
+}
+
+.header h1{
+    margin: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* menu */
+
+.menu{
+    background-color: rgb(69, 69, 70);
+    width: 100%;
+    float: left;
+    font-size: 14px;
+
+}
+
+
+.menu-icons{
+    padding-right: 15px;
+}
+
+.list{
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+    padding-top: 2px;
+    float: left;
+}
+
+.list a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.list :hover{
+    color: #3207f1;
+}
+
+.img{
+    width: 23px;
+    height: 23px;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 13px;
+}
+
+/* main */
+
+.main{
+    width: 100%;
+    float: left;
+    /* height: 1400px; */
+}
+
+.dashboard{
+    width: 100%;
+    float: left;
+}
+
+.dashboard img{
+    width: 100%;
+}
+
+/* rss */
+
+.rss{
+    width: 100%;
+    float: left;
+}
+
+.rss-compra-auto{
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.rss-compra-motor{
+    display: inline-block;
+    padding-right: 8px;
+}
+
+.rss-contactanos{
+    display: inline-block;
+    padding-right: 8px;
+}
+
+.rss img{
+    width: 235px;
+    height: 250px;
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.rss p{
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.rss a{
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 10px;
+}
+
+/* footer */
+
+.footer{
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+    width: 100%;
+    float: left;
+    padding-top: 8px;
+}
+
+.footer-logo{
+    float: left;
+    padding-left: 8px;
+}
+
+.footer-lema{
+    display: inline-block;
+    padding-top: 2px;
+}
+
+.footer-copy{
+    float: right;
+    padding-right: 15px;
+    padding-top: 2px;
+}
+
+
+/* ******************************************** */
+.mainAutos{
+    float: left;
+}
+
+.imgAutos{
+
+    height: 50%;
+    width: 50%;
+    margin-left: 70px;
+}
+
+.imgAutos img{
+    width: 190px;
+}
+
+/* ******************************************** */
+
+.mainMotores{
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+}
+
+.imgMotores{
+    float: left;
+    padding: 35px;
+    margin-left: 5px;
+}
+
+.imgMotores img{
+    width: auto;
+    height: auto;
+}
+
+.t{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+
+/* ******************************************** */    
+.contactosbody{
+    float: left;
+    height: 760px;
+    color: grey;
+    font-size: large;
+}
+
+.contactosbody h1{
+    color: black;
+}
+
+/* ******************************************** */
+
+.nosotros{
+    float: left;
+}
+
+.textoNosotros{
+    font-size: x-large;
+    color: gray;
+    height: 650px;
+}
+.imagenContactos{
+    width: 450px  !important;
+    height: 350px !important;
+}
+
+.centerContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.margin{
+    width: 100px;
+    padding-top: 100px;
+    text-align: center;
+}
